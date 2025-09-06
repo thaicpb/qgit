@@ -1,0 +1,11 @@
+.git
+.gitignore
+.mygitconfig.example.json
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
+test/
+docs/

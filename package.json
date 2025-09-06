@@ -1,0 +1,30 @@
+{
+  "name": "mygit",
+  "version": "1.0.0",
+  "description": "A CLI tool for managing custom git command aliases",
+  "main": "index.js",
+  "bin": {
+    "mygit": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "alias",
+    "command",
+    "tool"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module"
+}

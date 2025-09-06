@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "aliases": {
+    "// Các lệnh git cơ bản": "",
+    "st": "git status",
+    "cmt": "git commit -m \"$1\"",
+    "co": "git checkout $@",
+    "br": "git branch $@",
+    "push": "git push $@",
+    "pull": "git pull $@",
+    
+    "// Xem log": "",
+    "log": "git log --oneline -10",
+    "glog": "git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit",
+    "recent": "git log --oneline --graph --decorate -15",
+    
+    "// Các lệnh hữu ích": "",
+    "diff": "git diff $@",
+    "add": "git add $@",
+    "stash": "git stash $@",
+    "unstage": "git reset HEAD $@",
+    "amend": "git commit --amend",
+    "undo": "git reset --soft HEAD~1",
+    
+    "// Quản lý branch và remote": "",
+    "branches": "git branch -a",
+    "remotes": "git remote -v",
+    "fetch": "git fetch --all --prune",
+    "merge": "git merge $1",
+    "rebase": "git rebase $1",
+    
+    "// Lệnh kết hợp": "",
+    "save": "git add -A && git commit -m \"$1\"",
+    "wip": "git add -A && git commit -m \"WIP: Work in progress\"",
+    "pushf": "git push --force-with-lease",
+    "pullr": "git pull --rebase",
+    
+    "// Lệnh tùy chỉnh khác (không phải git)": "",
+    "ls": "ls -la",
+    "cls": "clear",
+    "np": "npm $@",
+    "y": "yarn $@",
+    "pn": "pnpm $@"
+  }
+}
